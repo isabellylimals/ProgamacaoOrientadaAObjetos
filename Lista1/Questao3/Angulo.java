@@ -3,8 +3,7 @@
 //  cotangente do ângulo.
 
 
-package ProgamacaoOrientadaAObjetos.Lista1.Questao3;
-
+package Lista1.Questao3;
 import java.util.Scanner;
 
 public class Angulo {
