@@ -1,7 +1,7 @@
  10. Determine se cada uma das seguintes alternativas é verdadeira ou falsa. Se falsa, expli
 que por quê.
  • O caso default é requerido na instrução de seleção switch. F
- • A  instrução break é requerida no último caso de uma instrução de seleção switch. falso
+ • A  instrução break é requerida no último caso(lembrar que esse caso quer se referir ao proprio case do switch) de uma instrução de seleção switch. falso
  • A expressão ((x > y)&&(a < b)) é verdadeira se (x > y) for verdadeiro ou (a < b) for
  verdadeira. f
  2
