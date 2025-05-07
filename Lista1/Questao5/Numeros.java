@@ -5,11 +5,15 @@
 
 package Lista1.Questao5;
 
+import java.util.Scanner;
+
 public class Numeros {
     public static void main(String[] args) {
-        int numero = 123; 
+        Scanner sc= new Scanner(System.in);
+        int numero;
         int unidade, dezena, centena;
-        
+        System.out.println("Insira um numero:");
+        numero= sc.nextInt();
         
         unidade = numero % 10;
         dezena = (numero / 10) % 10; 
@@ -19,6 +23,7 @@ public class Numeros {
         
         System.out.println("Número original: " + numero);
         System.out.println("Número reescrito: " + novoNumero);
+        sc.close();
     }
     
 }
