@@ -17,7 +17,7 @@ public class Numeros {
         
         unidade = numero % 10;
         dezena = (numero / 10) % 10; 
-        centena = numero / 100; 
+        centena = numero % 100; 
         
         int novoNumero = unidade * 100 + centena * 10 + dezena;
         
