@@ -11,3 +11,5 @@ randos forem verdadeiros. v
  hífen (-) entre os valores inicial e final da série em um rótulo case. Falso
 Listar casos consecutivamente sem instruções entre eles permite aos casos execu
 tar o mesmo conjunto de instruções. Verdadeiro
+
+
