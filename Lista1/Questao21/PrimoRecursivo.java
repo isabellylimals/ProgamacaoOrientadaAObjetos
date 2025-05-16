@@ -20,16 +20,10 @@ public class PrimoRecursivo {
     }
 
     
-    public static boolean verificaPrimo(int numero, int divisor) {
-        if (numero <= 1) {
-            return false; // 0 e 1 não são primos
-        }
-        if (numero%divisor!=0 && numero%3!=0) {
-            return true; 
-        }
-        if (numero % divisor == 0) {
-            return false; 
-        }
-        return verificaPrimo(numero, divisor + 1); 
+      public static boolean verificaPrimo(int numero, int divisor) {
+        if (numero <= 1) return false;
+        if (divisor > Math.sqrt(numero)) return true;
+        if (numero % divisor == 0) return false;
+        return verificaPrimo(numero, divisor + 1);
     }
 }
