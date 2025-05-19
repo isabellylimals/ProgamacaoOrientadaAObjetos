@@ -7,5 +7,22 @@
 package Questao37;
 
 public class Contador {
-    
-}
+     private int contagemEventos;
+
+
+       public void setCont(int cont){
+           this.contagemEventos = cont;
+       }
+       public void zerar(){
+           contagemEventos = 0;
+       }
+       public void incrementar(){
+           contagemEventos++;
+       }
+       public int getCont(){      
+           return contagemEventos;
+       }
+   
+       // Método main para demonstrar o uso da classe
+       
+   }
