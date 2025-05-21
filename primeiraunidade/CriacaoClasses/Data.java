@@ -1,9 +1,9 @@
 package primeiraunidade.CriacaoClasses;
 
 public class Data {
-   int dia;
-   int mes;
-   int ano;
+  private int dia;
+   private int mes;
+  private int ano;
 
 
 //   Data(){
@@ -13,16 +13,21 @@ public class Data {
 
 //    }
 
-   boolean dataEhValida(){
+ private  boolean dataEhValida(){
     return(dia>0 && dia<=30 && mes>0 && mes<=12 &&ano >=0);
    }
 
-   void inicializaData(int d, int a, int m){
+  public void inicializaData(int d, int a, int m){
          dia=d;
          mes=m;
          ano=a;
-    }
-   void mostraData(){
+         if(!this.dataEhValida()){
+dia=1;
+mes=1;
+ano=2000;
+
+    }}
+   public void getData(){
     System.out.println("Dia: " + dia + "Mes: " + mes + "Ano: " + ano);
    }
 }

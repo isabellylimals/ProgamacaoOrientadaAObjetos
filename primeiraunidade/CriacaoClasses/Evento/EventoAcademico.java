@@ -1,9 +1,9 @@
 package primeiraunidade.CriacaoClasses.Evento;
 
 public class EventoAcademico {
-    String nome;
-    String local;
-    int numParticipantes;
+   private  String nome;
+    private String local;
+    private int numParticipantes;
 
     public EventoAcademico(int numParticipantes, String nome, String local) {
         this.nome=nome;
