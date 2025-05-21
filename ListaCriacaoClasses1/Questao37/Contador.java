@@ -22,7 +22,6 @@ public class Contador {
        public int getCont(){      
            return contagemEventos;
        }
-   
-       // Método main para demonstrar o uso da classe
+ 
        
    }

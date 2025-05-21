@@ -18,15 +18,15 @@
 package Questao36;
 
 public class Elevador {
-      int numAndar;
-        int totalAndares;
-        int capacidade;
-        int pessoasPresentes;
+      private int numAndar;
+       private int totalAndares;
+      private int capacidade;
+       private int pessoasPresentes;
         // Construtor
         public Elevador(int capacidade, int totalAndares) {
             this.capacidade = capacidade;
             this.totalAndares = totalAndares;
-            this.numAndar = 0; // Começa no térreo
+            this.numAndar = 0; 
             this.pessoasPresentes = 0; 
 
         }

@@ -6,6 +6,7 @@ public class DemoContador {
            contador.setCont(5);
            contador.incrementar();
            contador.zerar();
+            contador.incrementar();
            System.out.println("Valor do contador: " + contador.getCont());
        }
 }
