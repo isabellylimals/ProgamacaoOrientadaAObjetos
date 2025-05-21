@@ -5,37 +5,32 @@
 // Escreva também uma classe executável para demonstrar o uso da classe criada com
 // diferentes tipos de dados.
 
-
 package Questao42;
 
-public class Generica {
-private int num1;
-private  int num2;
-private int num3;
+public class Generica<T> {
+    private T valor1;
+    private T valor2;
+    private T valor3;
 
-    public Generica(int num1, int num2, int num3) {
-        this.num1 = num1;
-        this.num2 = num2;
-        this.num3 = num3;
-    }
- public void iguais(){
-    if(num1==num2 && num1==num3 && num2==num3){
-        System.out.println("Os tres sao iguais\n");
-
-    }if(num1==num2 || num1==num3 ||num2==num3){
-         System.out.println("So dois sao iguais\n");
-    }else{
-         System.out.println("Não existe nenhum igual\n");
-    }
- }
-
-    public String toString() {
-        return "Generica [num1=" + num1 + ", num2=" + num2 + ", num3=" + num3 + "]";
+    public Generica(T valor1, T valor2, T valor3) {
+        this.valor1 = valor1;
+        this.valor2 = valor2;
+        this.valor3 = valor3;
     }
 
-
-
-
+    public int contarIguais() {
+        int iguais = 0;
+        if (valor1.equals(valor2) && valor1.equals(valor3)) {
+            iguais = 3;
+        } else if (valor1.equals(valor2) || valor1.equals(valor3) || valor2.equals(valor3)) {
+            iguais = 2;
+        } else {
+            iguais = 0;
+        }
+        return iguais;
     }
-    
 
+    public void imprimir() {
+        System.out.println("Valores: " + valor1 + ", " + valor2 + ", " + valor3);
+    }
+}
