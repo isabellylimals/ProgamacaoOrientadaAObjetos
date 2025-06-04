@@ -21,11 +21,13 @@ public class Minutos {
                 minutosVar-= 1440;
                 contadordeDias++;
                 
-            } 
-             while(minutosVar>60){
-                  minutosVar-=60;
-                  contadorHoras++;
-             }
+            } }
+            if(minutosVar>=60){
+                while(minutosVar>=60){
+                    minutosVar-=60;
+                    contadorHoras++;
+                }
+    
             }
             
             System.out.println(minutosTotal + " minutos= " + contadordeDias + " dias " + contadorHoras + " horas " + minutosVar +  " minutos");

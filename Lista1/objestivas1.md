@@ -1,3 +1,42 @@
+
+```markdown
+# Questão 10 — Verdadeiro ou Falso com Justificativas
+
+### • O caso `default` é requerido na instrução de seleção `switch`.
+**Resposta:** FALSO  
+**Justificativa:** O caso `default` é opcional em uma instrução `switch`. Ele é executado apenas se nenhum dos `case` for correspondente, mas sua presença **não é obrigatória**.
+
+---
+
+### • A instrução `break` é requerida no último caso (`case`) de uma instrução de seleção `switch`.
+**Resposta:** FALSO  
+**Justificativa:** A instrução `break` não é obrigatória em nenhum `case`, inclusive no último. O `break` serve para **encerrar o `switch`**, mas o compilador **não exige** sua presença. Se for omitido, o código pode continuar para os próximos blocos (`fall through`).
+
+---
+
+### • A expressão `((x > y) && (a < b))` é verdadeira se `(x > y)` for verdadeiro ou `(a < b)` for verdadeira.
+**Resposta:** FALSO  
+**Justificativa:** A expressão usa o operador lógico `&&` (E lógico), que só retorna verdadeiro quando **ambas** as condições são verdadeiras. Se apenas uma delas for verdadeira, o resultado da expressão será **falso**.
+
+---
+
+### • Uma expressão contendo o operador `||` é verdadeira se um ou ambos de seus operandos forem verdadeiros.
+**Resposta:** VERDADEIRO  
+**Justificativa:** O operador `||` (OU lógico) retorna verdadeiro quando **pelo menos uma** das expressões é verdadeira. Se **ambas** forem falsas, ele retorna falso.
+
+---
+
+### • Para testar para uma série de valores em uma instrução `switch`, pode-se utilizar um hífen (`-`) entre os valores inicial e final da série em um rótulo `case`.
+**Resposta:** FALSO  
+**Justificativa:** O `switch` não permite intervalos usando hífen como em `case 1-5:`. Cada valor deve ser especificado separadamente usando múltiplos `case`s, como `case 1: case 2: case 3:` etc.
+
+---
+
+### • Listar casos consecutivamente sem instruções entre eles permite aos casos executar o mesmo conjunto de instruções.
+**Resposta:** VERDADEIRO  
+**Justificativa:** Em um `switch`, quando vários `case`s são listados consecutivamente sem `break` ou instruções entre eles, todos eles executarão o mesmo bloco de código. Isso é chamado de **fall through**.
+
+```
 23. **[UFPR- 2023- IF-PR- Informática]**  
 Assinale a alternativa correspondente à saída que será apresentada na tela ao executar o código abaixo, inserindo como entrada o valor 5 para a média e 0,75 para frequência.
 

@@ -34,7 +34,7 @@ public class NumComplexo {
         } else if (parteImag > 0) {
             return String.format("%.1f + %.1fi", parteReal, parteImag);
         } else {
-            return String.format("%.1f - %.1fi", parteReal, -parteImag);
+            return String.format("%.1f + %.1fi", parteReal, -parteImag);
         }
     }
 }

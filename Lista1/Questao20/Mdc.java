@@ -16,7 +16,7 @@ public class Mdc {
         m= sc.nextInt();
         System.out.println("N:");
         n=sc.nextInt();
-       System.out.printf(".O maximo divisor comum entre %d e %d eh: %d  ", m , n, calculoMdc(m,n));
+     System.out.printf(".O maximo divisor comum entre %d e %d eh: %d  ", m , n, calculoMdc(m,n));
         sc.close();
     }
 public static int calculoMdc(int n, int m){

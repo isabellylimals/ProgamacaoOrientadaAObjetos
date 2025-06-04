@@ -25,10 +25,12 @@ public class Fatorial {
         sc.close();
     }
     public static int fatorial(int numero){
-        int multiplicador= numero;
-        if(multiplicador==1){
-            return numero;
+    
+        if(numero == 0 || numero == 1) {
+    
+            return 1;
         }
+
         else{
               return numero* fatorial(numero-1);
         }

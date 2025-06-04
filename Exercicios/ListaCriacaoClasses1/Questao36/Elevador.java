@@ -20,11 +20,11 @@ package Questao36;
 public class Elevador {
       private int numAndar;
        private int totalAndares;
-      private int capacidade;
+      private final int capacidade=6;
        private int pessoasPresentes;
         // Construtor
-        public Elevador(int capacidade, int totalAndares) {
-            this.capacidade = capacidade;
+        public Elevador( int totalAndares) {
+        
             this.totalAndares = totalAndares;
             this.numAndar = 0; 
             this.pessoasPresentes = 0; 
