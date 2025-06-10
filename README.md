@@ -19,12 +19,11 @@ Além disso, serão apresentados exercícios práticos para consolidar o aprendi
 
 ## Lista de Exercícios
 
-Este repositório contém uma lista de exercícios fornecidos pelo professor para praticar os conceitos de POO. Certifique-se de seguir as instruções e explorar as soluções para aprimorar suas habilidades de programação.
+Este repositório contém uma lista de exercícios fornecidos pelo professor para praticar os conceitos de POO.
+
 
 ## Como Usar Este Repositório
 
 1. Clone o repositório para sua máquina local.
 2. Navegue pelos exercícios disponíveis.
 3. Resolva os problemas e compare suas soluções com as fornecidas (se aplicável).
-
-Aproveite a jornada de aprendizado em Programação Orientada a Objetos!
