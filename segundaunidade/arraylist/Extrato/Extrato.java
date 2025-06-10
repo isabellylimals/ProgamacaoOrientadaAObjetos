@@ -10,6 +10,17 @@ public class Extrato {
         transacoes = new ArrayList<>();
     }
 
+
+    public void adicionarTransacao(float valor) {
+       if(saldoFinal + valor>=0) {
+           saldoFinal += valor;
+           transacoes.add(valor);   
+
+       }
+       else {
+        System.out.println("Transação inválida: Saldo insuficiente.");
+       }
+    }
     @Override
     public String toString() {
         String res ="================\n";
@@ -22,5 +33,7 @@ public class Extrato {
             // res ="================\n";
        
   
+
+}
 
 }
