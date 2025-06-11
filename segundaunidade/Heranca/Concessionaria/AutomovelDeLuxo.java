@@ -25,7 +25,7 @@ public String toString() {
     res+= "\nAr condicionado: " + (arCondicionado ? "Sim" : "Nao"); 
     res+= "\nRadio: " + isRadio();
     res+= "\nAirbag:" + isAirbag();
-    res+= "\nCsto:= " + quandoCusta();
+    res+= "\nCusto:= " + quandoCusta();
   return res;
 
 }
