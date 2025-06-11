@@ -12,4 +12,17 @@ public class Automovel {
     public float quantoCusta(){
         return (ano<2010 ? 50000 : 70000);
     }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public String getCor() {
+        return cor;
+    }
+
+    public int getAno() {
+        return ano;
+    }
+
 }

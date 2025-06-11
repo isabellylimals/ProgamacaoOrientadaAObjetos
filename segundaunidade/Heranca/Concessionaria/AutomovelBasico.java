@@ -17,4 +17,13 @@ public class AutomovelBasico extends Automovel {
         return custo;
 
     }
+
+    public boolean isAirbag() {
+        return airbag;
+    }
+
+    public boolean isRadio() {
+        return radio;
+    }
+
 }
