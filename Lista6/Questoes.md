@@ -291,7 +291,7 @@ Considere as seguintes definições relacionadas à programação orientada a ob
 Existe uma gama de definições sobre a orientação a objetos. No sentido da relação das classes e dos acessos aos métodos, preencha as lacunas abaixo.  
 Muitas classes podem ter acesso _____, porém, _____ esse método _____.  
 A sequência de palavras que preenche corretamente as lacunas é:  
-- (A) a um mesmo método / cada classe executa / de maneira diferente  
+- **(A) a um mesmo método / cada classe executa / de maneira diferente**
 - (B) a um mesmo método / outras classes executam / da mesma maneira  
 - (C) somente a um método / outras classes executam / de maneira diferente  
 - (D) somente a um método / cada classe executa / da mesma maneira  
@@ -329,7 +329,7 @@ Em orientação a objeto, o uso de um método com comportamento diferente, como 
 - (A) Lean  
 - (B) Eventos  
 - (C) Recursão  
-- (D) Polimorfismo  
+- **(D) Polimorfismo**
 - (E) Encapsulamento  
 
 ---
@@ -339,7 +339,7 @@ Assinale a alternativa que completa a lacuna do texto abaixo.
 A POO oferece um tipo especial de classe que não pode ser instanciada. Trata-se da classe _____  
 - (A) empacotada  
 - (B) concreta  
-- (C) abstrata  
+- **(C) abstrata**  
 - (D) oculta  
 
 ---
@@ -347,7 +347,7 @@ A POO oferece um tipo especial de classe que não pode ser instanciada. Trata-se
 85. **[Instituto Access - UFFS - 2023 - Técnico de Tecnologia da Informação]**  
 No que diz respeito à orientação a objetos, um princípio é definido como aquele em que as classes derivadas de uma única classe base são capazes de invocar os métodos que, embora apresentem a mesma assinatura, comportam-se de maneira diferente para cada uma das classes derivadas. É um mecanismo por meio do qual selecionam-se as funcionalidades utilizadas de forma dinâmica por um programa no decorrer de sua execução. Esse princípio é conhecido por  
 - (A) encapsulamento  
-- (B) polimorfismo  
+- **(B) polimorfismo**  
 - (C) acoplamento  
 - (D) herança  
 - (E) coesão  
@@ -407,11 +407,11 @@ public class AgendarExame {
 - (A) O método não pode ser executado, pois a classe EcografiaTireoide não tem implementação para o método mostrarPreparo.
 - (B) 
     ```
-    GLICEMIA EM JEJUM - PREPARO:
+    ** GLICEMIA EM JEJUM - PREPARO:
     Não ingerir bebidas alcoólicas 72 horas antes do exame.
     Jejum de 8 a 12 horas
     EXAME DE IMAGEM PREPARO:
-    Nenhum preparo necessário.
+    Nenhum preparo necessário.**
     ```
 - (C) 
     ```
@@ -429,6 +429,7 @@ public class AgendarExame {
     ```
 - (E) O método não pode ser executado, pois Exame não define um tipo para o objeto, já que não é uma classe e sim uma interface.
 
+**RESPOSTA CORRETA LETRA B)**
 ---
 
 87. **[BIO-RIO - 2016 - Prefeitura de São Gonçalo - RJ - Analista da Área Tecnológica]**  
@@ -443,7 +444,7 @@ No que diz respeito à Orientação a Objetos, dois princípios são caracteriza
 - (B) polimorfismo e coesão.
 - (C) herança e acoplamento.
 - (D) acoplamento e encapsulamento.
-- (E) encapsulamento e polimorfismo.
+- **(E) encapsulamento e polimorfismo.**
 
 ---
 
@@ -453,7 +454,7 @@ Considere um sistema bancário em Java que possui a classe `Cliente` e suas subc
 Para atender a essa condição, a implementação dessas classes deve possuir o método `getDesconto`:
 
 - (A) apenas na classe Cliente, identificando a qual subclasse o cliente pertence e calculando o desconto por meio de uma estrutura se-então dentro da implementação.
-- (B) em todas as três classes, sendo possível, nesse caso, que a função getDesconto da classe Cliente seja abstrata.
+- **(B) em todas as três classes, sendo possível, nesse caso, que a função getDesconto da classe Cliente seja abstrata.**
 - (C) apenas nas classes ClientePessoaFisica e ClientePessoaJuridica, pois não há instâncias da classe Cliente no sistema, já que é uma classe abstrata.
 - (D) fora das três classes, dado que uma estrutura do tipo se-então deve ser usada para descobrir qual é a classe adequada.
 - (E) implementada totalmente em todas as classes, sendo que a função getDesconto da classe Cliente chama a função getDesconto das classes ClientePessoaFisica e ClientePessoaJuridica de acordo com a necessidade.
@@ -543,7 +544,7 @@ IV. A execução da linha testPhone(smartPhone), descrita dentro do construtor A
 Estão corretas apenas as asserções:
 
 - (A) II e IV.
-- (B) II e III.
+- **(B) II e III.**
 - (C) I e III.
 - (D) I e IV.
 
@@ -566,7 +567,7 @@ public final class Password {
 ```
 
 - (A) Esta classe não poderá ser estendida por outras classes, porém seus métodos poderão ser sobrescritos.
-- (B) Esta classe não poderá ser estendida por outras classes.
+- **(B) Esta classe não poderá ser estendida por outras classes.**
 - (C) Esta classe poderá ser estendida por outra classe.
 - (D) Esta classe poderá ser estendida por outra classe, porém seus métodos não poderão ser sobrescritos.
 
@@ -580,6 +581,6 @@ Considerando princípios de programação orientada a objetos, assinale a aborda
 
 - (A) Utilizar variáveis de controle condicional dentro do método “ExecutarHabilidade” para verificar explicitamente o tipo da instância e ajustar o comportamento.
 - (B) Criar versões específicas do método “ExecutarHabilidade” para “Guerreiro” e “Mago” com implementações distintas.
-- (C) Marcar o método “ExecutarHabilidade” como abstrata na classe base “Personagem” e fornecendo implementações específicas nas classes derivadas.
+- **(C) Marcar o método “ExecutarHabilidade” como abstrata na classe base “Personagem” e fornecendo implementações específicas nas classes derivadas.**
 - (D) Permitir que “Guerreiro” e “Mago” herdem métodos específicos de diferentes classes e personalizem o comportamento de “ExecutarHabilidade”.
 - (E) Ocultar a implementação do método “ExecutarHabilidade” na classe base “Personagem” e redefinindo-o nas classes derivadas para comportamentos específicos.
