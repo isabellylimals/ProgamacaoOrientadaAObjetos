@@ -1,3 +1,4 @@
+package Polimorfismo;
 import java.util.Scanner;
 
 public class VerificaPrimo {
