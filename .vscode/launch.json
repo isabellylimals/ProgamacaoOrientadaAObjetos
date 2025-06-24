@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Conjunto",
+            "request": "launch",
+            "mainClass": "Colecoes.Conjuntos.Conjunto",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
             "name": "Fila",
             "request": "launch",
             "mainClass": "Colecoes.Fila.Fila",
