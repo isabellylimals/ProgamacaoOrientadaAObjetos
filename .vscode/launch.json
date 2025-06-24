@@ -1,0 +1,560 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "RemoveCores",
+            "request": "launch",
+            "mainClass": "Colecoes.LinkedList.RemoveCores",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Pilha",
+            "request": "launch",
+            "mainClass": "Colecoes.Pilha.Pilha",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "BuscaCor",
+            "request": "launch",
+            "mainClass": "Colecoes.arraylist.BuscaCor",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaArrayList.Exercicio48.Main",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaArrayList.Exercicio49.Main",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoCliente",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaArrayList.Exercicio50.DemoCliente",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaArrayList.Exercicio51.Main",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Dados",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaArrayList.Exercicio52.Dados",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaArrayList.Main",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Loop",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaCriacaoClasses.Loop",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoTimes",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaCriacaoClasses.Questao30.DemoTimes",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoFatura",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaCriacaoClasses.Questao31.DemoFatura",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoAlunos",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaCriacaoClasses.Questao32.DemoAlunos",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoElevador",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaCriacaoClasses.Questao36.DemoElevador",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoContador",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaCriacaoClasses.Questao37.DemoContador",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "TesteLampada",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaCriacaoClasses.Questao38.TesteLampada",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "TesteNumComplexo",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaCriacaoClasses.Questao39.TesteNumComplexo",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "TesteNumero",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaCriacaoClasses.Questao40.TesteNumero",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoRegistro",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaCriacaoClasses.Questao41.DemoRegistro",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "TesteGenerica",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaCriacaoClasses.Questao42.TesteGenerica",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "AreaQuadrado",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao1.AreaQuadrado",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Pontos",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao11.Pontos",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Fevereiro",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao12.Fevereiro",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Megasena",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao13.Megasena",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao14.Fibonacci",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Perfeitos",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao15.Perfeitos",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Cubos",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao16.Cubos",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Cidades",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao17.Cidades",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Base",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao18.Base",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Fatorial",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao19.Fatorial",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Media",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao2.Media",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Mdc",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao20.Mdc",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "PrimoRecursivo",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao21.PrimoRecursivo",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "PolinomioRecursivo",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao22.PolinomioRecursivo",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Angulo",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao3.Angulo",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Graus",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao4.Graus",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Num",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao5.Num",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Numeros",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao5.Numeros",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Minutos",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao6.Minutos",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Menornumero",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao7.Menornumero",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Vendas",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao8.Vendas",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Cartas",
+            "request": "launch",
+            "mainClass": "Exercicios.ListaIntroducao.Questao9.Cartas",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoFuncionario",
+            "request": "launch",
+            "mainClass": "Lista6.Questao72.DemoFuncionario",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoFigura",
+            "request": "launch",
+            "mainClass": "Lista6.Questao73.DemoFigura",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Principal",
+            "request": "launch",
+            "mainClass": "Lista6.Questao74.Principal",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Main(4)",
+            "request": "launch",
+            "mainClass": "Lista6.Questao75.Main",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "TestaEquipamento",
+            "request": "launch",
+            "mainClass": "ListaReusodeClasses.Questao61.TestaEquipamento",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Evento",
+            "request": "launch",
+            "mainClass": "ListaReusodeClasses.Questao62.Evento",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoLivro",
+            "request": "launch",
+            "mainClass": "ListaReusodeClasses.Questao63.DemoLivro",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoPessoa",
+            "request": "launch",
+            "mainClass": "ListaReusodeClasses.Questao64.DemoPessoa",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoCargo",
+            "request": "launch",
+            "mainClass": "ListaReusodeClasses.Questao65.DemoCargo",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoControle",
+            "request": "launch",
+            "mainClass": "Polimorfismo.ClassesAbstratas.controle.DemoControle",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoEmpresa",
+            "request": "launch",
+            "mainClass": "Polimorfismo.Interface.DemoEmpresa",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "VerificaPrimo",
+            "request": "launch",
+            "mainClass": "Polimorfismo.VerificaPrimo",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoCaixa",
+            "request": "launch",
+            "mainClass": "primeiraunidade.CriacaoClasses.CaixaBanco.DemoCaixa",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Democircle",
+            "request": "launch",
+            "mainClass": "primeiraunidade.CriacaoClasses.Circulo.Democircle",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoBanco",
+            "request": "launch",
+            "mainClass": "primeiraunidade.CriacaoClasses.Contab.DemoBanco",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoData",
+            "request": "launch",
+            "mainClass": "primeiraunidade.CriacaoClasses.DemoData",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoEvento",
+            "request": "launch",
+            "mainClass": "primeiraunidade.CriacaoClasses.Evento.DemoEvento",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoPessoaa",
+            "request": "launch",
+            "mainClass": "primeiraunidade.CriacaoClasses.Pessoa.DemoPessoaa",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoRegistro(1)",
+            "request": "launch",
+            "mainClass": "primeiraunidade.CriacaoClasses.RegistroAca.DemoRegistro",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoTriangulo",
+            "request": "launch",
+            "mainClass": "primeiraunidade.CriacaoClasses.Triangulo.DemoTriangulo",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Fatoriais",
+            "request": "launch",
+            "mainClass": "primeiraunidade.Introducao.Fatoriais",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Media(1)",
+            "request": "launch",
+            "mainClass": "primeiraunidade.Introducao.Media",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Pratica",
+            "request": "launch",
+            "mainClass": "primeiraunidade.Introducao.Pratica",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Vercartao",
+            "request": "launch",
+            "mainClass": "primeiraunidade.Introducao.Vercartao",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "boasvindas",
+            "request": "launch",
+            "mainClass": "primeiraunidade.Introducao.boasvindas",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "data",
+            "request": "launch",
+            "mainClass": "primeiraunidade.Introducao.data",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "distancia",
+            "request": "launch",
+            "mainClass": "primeiraunidade.Introducao.distancia",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "velocidade",
+            "request": "launch",
+            "mainClass": "primeiraunidade.Introducao.velocidade",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoCon",
+            "request": "launch",
+            "mainClass": "segundaunidade.Heranca.Concessionaria.DemoCon",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Main(5)",
+            "request": "launch",
+            "mainClass": "segundaunidade.Heranca.Delegacao.Main",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Main(6)",
+            "request": "launch",
+            "mainClass": "segundaunidade.Heranca.Main",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoContaBancaria",
+            "request": "launch",
+            "mainClass": "segundaunidade.arraylist.Extrato.DemoContaBancaria",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Formula",
+            "request": "launch",
+            "mainClass": "segundaunidade.arraylist.Formula",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Media(2)",
+            "request": "launch",
+            "mainClass": "segundaunidade.arraylist.Media.Media",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "DemoDamas",
+            "request": "launch",
+            "mainClass": "segundaunidade.arraylist.Tabuleiro.DemoDamas",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
+            "name": "Pascal",
+            "request": "launch",
+            "mainClass": "segundaunidade.arraylist.TrianguloPascal.Pascal",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        }
+    ]
+}
