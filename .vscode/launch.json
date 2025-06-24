@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Fila",
+            "request": "launch",
+            "mainClass": "Colecoes.Fila.Fila",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
