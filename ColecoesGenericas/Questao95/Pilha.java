@@ -9,9 +9,9 @@ public class Pilha {
             String entrada = sc.nextLine();
 
             if (validaExpressao(entrada)) {
-                System.out.println("Expressão válida");
+                System.out.println("Esta Balanceada");
             } else {
-                System.out.println("Expressão inválida");
+                System.out.println("Nao esta balanceada");
             }
         }
     }
@@ -24,7 +24,7 @@ public class Pilha {
                 pilha.push(c);
             } else if (c == ')') {
                 if (pilha.isEmpty()) {
-                    return false; // Fecha sem abrir
+                    return false; 
                 }
                 pilha.pop();
             }
