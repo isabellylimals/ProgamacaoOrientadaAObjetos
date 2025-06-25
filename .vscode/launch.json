@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "ProgramacaoOrientadaAObjetos_2fbc60df"
+        },
+        {
+            "type": "java",
             "name": "SimuladorConsultorio",
             "request": "launch",
             "mainClass": "ColecoesGenericas.Questao96.SimuladorConsultorio",
