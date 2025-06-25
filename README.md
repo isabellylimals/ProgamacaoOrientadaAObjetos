@@ -27,3 +27,4 @@ Este repositório contém uma lista de exercícios fornecidos pelo professor par
 1. Clone o repositório para sua máquina local.
 2. Navegue pelos exercícios disponíveis.
 3. Resolva os problemas e compare suas soluções com as fornecidas (se aplicável).
+##teste
