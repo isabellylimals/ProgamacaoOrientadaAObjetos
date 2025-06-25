@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SimuladorConsultorio",
+            "request": "launch",
+            "mainClass": "ColecoesGenericas.Questao96.SimuladorConsultorio",
+            "projectName": "ProgramacaoOrientadaAObjetos_bc8995ef"
+        },
+        {
+            "type": "java",
             "name": "ListaInversa",
             "request": "launch",
             "mainClass": "ColecoesGenericas.Questao93.ListaInversa",
