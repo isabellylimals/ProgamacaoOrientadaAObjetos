@@ -17,7 +17,7 @@ Nesta disciplina, você aprenderá os conceitos fundamentais de POO, como:
 
 Além disso, serão apresentados exercícios práticos para consolidar o aprendizado e aplicar os conceitos em problemas reais.
 
-## Lista de Exercícios
+### Lista de Exercícios
 
 Este repositório contém uma lista de exercícios fornecidos pelo professor para praticar os conceitos de POO.
 
@@ -27,3 +27,4 @@ Este repositório contém uma lista de exercícios fornecidos pelo professor par
 1. Clone o repositório para sua máquina local.
 2. Navegue pelos exercícios disponíveis.
 3. Resolva os problemas e compare suas soluções com as fornecidas (se aplicável).
+
