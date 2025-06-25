@@ -14,15 +14,16 @@ import java.util.Random;
 public class Dados {
     public static void main(String[] args) {
         final int TOTAL_LANCAMENTOS = 36_000_000;
-        int[] somas = new int[13]; // Índices de 0 a 12, mas usaremos apenas 2 a 12
+        int[] somas = new int[13];
 
         Random random = new Random();
 
         for (int i = 0; i < TOTAL_LANCAMENTOS; i++) {
-            int dado1 = 1 + random.nextInt(6); // valor de 1 a 6
+            int dado1 = 1 + random.nextInt(6);
             int dado2 = 1 + random.nextInt(6);
             int soma = dado1 + dado2;
             somas[soma]++;
+            
         }
 
         System.out.println("Soma\tFrequência");

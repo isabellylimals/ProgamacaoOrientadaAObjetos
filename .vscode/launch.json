@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Pilha",
+            "request": "launch",
+            "mainClass": "Pilha",
+            "projectName": "ProgamacaoOrientadaAObjetos_54a62bdb"
+        },
+        {
+            "type": "java",
             "name": "Conjunto",
             "request": "launch",
             "mainClass": "Colecoes.Conjuntos.Conjunto",
