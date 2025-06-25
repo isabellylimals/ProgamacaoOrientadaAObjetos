@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Contaletras",
+            "request": "launch",
+            "mainClass": "ColecoesGenericas.Questao94.Contaletras",
+            "projectName": "ProgramacaoOrientadaAObjetos_2fbc60df"
+        },
+        {
+            "type": "java",
             "name": "Palavras",
             "request": "launch",
             "mainClass": "ColecoesGenericas.Questao94.Palavras",

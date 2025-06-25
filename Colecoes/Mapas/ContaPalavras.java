@@ -2,7 +2,7 @@ package Colecoes.Mapas;
 import java.util.TreeMap;
 public class ContaPalavras {
 public static void main(String[] args) {
-    String texto ="Três irmãos viajando por uma estrada solitária e sinuosa ao entardecer chegaram a um rio profundo e traiçoeiro onde qualquer um que tentasse nadar ou vadear se afogaria";
+    String texto = "A casa é azul e a casa é grande A casa é bonita";
      TreeMap<String,Integer> mapa= new TreeMap<>();
      String palavras[]= texto.split(" ");
    
