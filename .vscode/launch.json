@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Pilha",
+            "request": "launch",
+            "mainClass": "Pilha",
+            "projectName": "ProgramacaoOrientadaAObjetos_2fbc60df"
+        },
+        {
+            "type": "java",
             "name": "Contaletras",
             "request": "launch",
             "mainClass": "ColecoesGenericas.Questao94.Contaletras",
