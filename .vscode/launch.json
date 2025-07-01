@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Divisao",
+            "request": "launch",
+            "mainClass": "segundaunidade.Excecoes.Divisao",
+            "projectName": "ProgramacaoOrientadaAObjetos_2fbc60df"
+        },
+        {
+            "type": "java",
+            "name": "pratica01",
+            "request": "launch",
+            "mainClass": "segundaunidade.Excecoes.pratica01",
+            "projectName": "ProgramacaoOrientadaAObjetos_2fbc60df"
+        },
+        {
+            "type": "java",
             "name": "Pilha",
             "request": "launch",
             "mainClass": "Pilha",
