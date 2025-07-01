@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Meses",
+            "request": "launch",
+            "mainClass": "segundaunidade.Excecoes.Exercicios.Meses",
+            "projectName": "ProgramacaoOrientadaAObjetos_2fbc60df"
+        },
+        {
+            "type": "java",
+            "name": "Soma",
+            "request": "launch",
+            "mainClass": "segundaunidade.Excecoes.Exercicios.Soma",
+            "projectName": "ProgramacaoOrientadaAObjetos_2fbc60df"
+        },
+        {
+            "type": "java",
             "name": "Divisao",
             "request": "launch",
             "mainClass": "segundaunidade.Excecoes.Divisao",

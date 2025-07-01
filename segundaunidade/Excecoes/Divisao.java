@@ -36,6 +36,16 @@ public class Divisao {
         }
     }
 
+//   public static int divisaoInteira(int numerador, int denominador){
+//         throws ArithmeticException{
+//             return numerador / denominador;
+//         }
+//         int resultado = 0;
+//         resultado = numerador / denominador;
+//         return resultado;
+//     }
+// }
+
     public static int divisaoInteira(int numerador, int denominador){
         int resultado = 0;
         try {
@@ -46,4 +56,8 @@ public class Divisao {
         return resultado;
     }
 }
+
+
+  
+     
 //menortamanho possivel
