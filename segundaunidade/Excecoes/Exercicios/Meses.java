@@ -14,8 +14,8 @@ public class Meses {
         try {
             int numero = scanner.nextInt();
             System.out.println("Mês: " + meses[numero - 1]);
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Número inválido! Digite um valor entre 1 e 12.");
+        // } catch (ArrayIndexOutOfBoundsException e) {
+        //     System.out.println("Número inválido! Digite um valor entre 1 e 12.");
         } catch (Exception e) {
             System.out.println("Entrada inválida! Por favor, digite um número inteiro.");
         }

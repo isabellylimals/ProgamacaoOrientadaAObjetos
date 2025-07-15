@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DemoLivro",
+            "request": "launch",
+            "mainClass": "ListaReusodeClasses.Questao63.DemoLivro",
+            "projectName": "ProgramacaoOrientadaAObjetos_2fbc60df"
+        },
+        {
+            "type": "java",
             "name": "Meses",
             "request": "launch",
             "mainClass": "segundaunidade.Excecoes.Exercicios.Meses",

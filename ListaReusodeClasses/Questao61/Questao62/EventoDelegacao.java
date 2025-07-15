@@ -6,7 +6,7 @@
 //  contenha um campo para indicar qual o evento que ela representa (use uma String
 //  para isto). Use o mecanismo de herança para criar a classe EventoHeranca;
 //  • Escreva um aplicativo de teste que demonstre o uso das classes criadas.
-package ListaReusodeClasses.Questao62;
+package ListaReusodeClasses.Questao61.Questao62;
 
 public class EventoDelegacao {
     private String evento;

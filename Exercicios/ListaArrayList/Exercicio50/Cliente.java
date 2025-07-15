@@ -2,7 +2,7 @@
 //  Faça umprogramaparasolicitar os dados de vários clientes e armazenar em umArrayList
 //  até que se digite um número de id negativo. Em seguida, exiba os dados de todos os
 //  clientes
-package Lista4ArrayList.Exercicio50;
+package Exercicios.ListaArrayList.Exercicio50;
 
 public class Cliente {
     private String nome;

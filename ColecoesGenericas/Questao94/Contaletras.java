@@ -3,24 +3,23 @@ import java.util.TreeMap;
 public class Contaletras {
 public static void main(String[] args) {
     String texto ="isaaas";
-     TreeMap<String,Integer> frase= new TreeMap<>();
+     TreeMap<String,Integer> mapa= new TreeMap<>();
      String letras[]= texto.split("");
    
     for(String letra: letras){
        String letraMinuscula= letra.toLowerCase();
-        if(frase.containsKey(letra)){
+        if(mapa.containsKey(letraMinuscula)){
        
-            int qtd= frase.get(letraMinuscula);
-            frase.put(letraMinuscula, qtd+1);
+            int qtd= mapa.get(letraMinuscula);
+            mapa.put(letraMinuscula, qtd+1);
         }else{
-            frase.put(letraMinuscula,1);
+            mapa.put(letraMinuscula,1);
         }
-        //System.out.println(letraMinuscula);
 
 
     }
-    for(String letra: frase.keySet()){
-        System.out.println(letra+ " " + frase.get(letra));
+    for(String letra: mapa.keySet()){
+        System.out.println(letra+ " " + mapa.get(letra));
     }
 }
 }

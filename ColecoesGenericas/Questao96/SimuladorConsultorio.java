@@ -12,7 +12,6 @@ public class SimuladorConsultorio {
         int pacientesAtendidos = 0;
 
         while (pacientesAtendidos < 20) {
-            // A cada 4 minutos, chega um novo paciente
             if (tempo % 4 == 0) {
                 int rg = 100000 + random.nextInt(900000);
                 int idade = 10 + random.nextInt(80);
@@ -28,7 +27,6 @@ public class SimuladorConsultorio {
                 System.out.println("Novo paciente chegou: " + novo);
             }
 
-            // A cada 5 minutos, consulta um paciente
             if (tempo % 5 == 0 && tempo > 0) {
                 Paciente atendido = null;
                 if (!filaPrioritaria.isEmpty()) {

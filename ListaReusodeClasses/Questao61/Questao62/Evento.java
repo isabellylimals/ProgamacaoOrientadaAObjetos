@@ -1,4 +1,4 @@
-package ListaReusodeClasses.Questao62;
+package ListaReusodeClasses.Questao61.Questao62;
 
 public class Evento {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 package ListaReusodeClasses.Questao63;
 
 public class LivroBiblioteca extends Livro {
-    private boolean disponibilidade;
+    private boolean disponibilidade=true;
 
     public LivroBiblioteca(String titulo, String genero, String autor, boolean disponibilidade) {
         super(titulo, genero, autor);
